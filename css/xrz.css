@@ -45,13 +45,13 @@
 }
 
 .ulin-3 li {
-    float:left;
+    display: inline-block;
     width:33.33%;
     text-align: center;
     height:66px;
     background: #FFFFFF;
-    margin-bottom:18px;
 }
+
 .ulin-3 li a {display: block;}
 .ulin-3 li:nth-of-type(2) {
     border-left:1px solid #DCDCDC;
@@ -77,11 +77,13 @@
 .zs-d .zs-num:before{
     content: "⇩";
     margin-right: 6px;
+    font-weight: bolder;
 }
 .zs-u .zs-num {color:#E34C46;}
 .zs-u .zs-num:before{
     content: "⇧";
     margin-right: 6px;
+    font-weight: bolder;
 }
 
 .zs-ud{
@@ -90,3 +92,72 @@
 }
 
 .zs-ud .ud-1{margin-right:6px;}
+
+.tzjh {
+    padding: 0 9px 9px;
+    margin-bottom: 9px;
+}
+
+.uljh-3 li {
+    display: inline-block;
+    width:28%;
+    text-align: center;
+    /*height:66px;*/
+    background: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    margin-top: 9px;
+    margin-left: 9px;
+    padding: 9px 0 3px;
+}
+
+.jh-tt {
+    color:#000;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.jh-num {
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 6px 0;
+}
+.jh-d .jh-num { color:#42D26B;}
+.jh-d .jh-num:before {
+    content: "-";
+    margin-right: 6px;
+    font-weight: bolder;
+}
+.jh-u .jh-num {color:#E34C46;}
+.jh-u .jh-num:before {
+    content: "+";
+    margin-right: 6px;
+}
+.jh-name {
+    color:#000;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 6px;
+}
+.jh-ud{
+    color:#222222;
+    font-size: 14px;
+}
+
+.jh-ud .ud-1{margin-right:6px;}
+
+.btn {
+    width: 80%;
+    height: 44px;
+    line-height:44px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    text-align: center;
+    background: #E44E42;
+    margin: 0 auto 32px;
+    border-radius: 5px;
+}
+
+.download {
+    position: fixed;
+    bottom: 0;
+}
